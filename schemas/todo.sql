@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS todo (
 );
 
 -- Usersテーブルにデータを追加
-INSERT INTO todo (title) VALUES
-  ('おはよう'),
-  ('サンプルデータ'),
-  ('よろしくお願いします');
+INSERT INTO todo (id,title) VALUES
+  (1,'おはよう'),
+  (2,'サンプルデータ'),
+  (3,'よろしくお願いします');
