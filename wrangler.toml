@@ -1,5 +1,19 @@
-name = "myapp"
-compatibility_date = "2023-12-01"
+# name = "myapp"
+# compatibility_date = "2023-12-01"
+
+# [[d1_databases]]
+# binding = "DB" # i.e. available in your Worker on env.DB
+# database_name = "myapp-db"
+# database_id = "f9de0163-671b-43cb-8463-842af2da657b"
+
+name = "todo"
+compatibility_date = "2023-01-01"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "todo"
+database_id = "8cdd6b89-81f8-4a82-9c5b-7e7701a79c33"
+preview_database_id = "local-todo"
 
 # [vars]
 # MY_VAR = "my-variable"
@@ -19,9 +33,3 @@ compatibility_date = "2023-12-01"
 
 # [ai]
 # binding = "AI"
-
-
-[[d1_databases]]
-binding = "DB" # i.e. available in your Worker on env.DB
-database_name = "myapp-db"
-database_id = "f9de0163-671b-43cb-8463-842af2da657b"
